@@ -9,7 +9,7 @@ gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 
 group :development, :test do
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'guard-rspec', '1.2.1'
 end
 
